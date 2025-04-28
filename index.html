@@ -1,89 +1,87 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Jia Pan</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
-  
-  <body>
-
-    <header id="header">
-      <img src="photo-self.jpg">
-      <h1>Jia (Tony) Pan</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              I am an incoming CS PhD student at UT-Austin and I just got my Bachelor's degree in Computer Science with additional majors Electrical Engineering, and Mathematics at Johns Hopkins University.
-              Previously, I worked with <a href="https://web.eecs.umich.edu/~ryanph/">Prof. Ryan Huang</a> on understanding partial failure bugs in large-scale distributed systems and 
-              <a href="https://homepage.divms.uiowa.edu/~astump/">Prof. Aaron Stump</a> on constructing relational semantics for theorem-proving in <a href="https://gitlab.com/astump97/dcs">DCS</a> based on <a href="https://people.mpi-sws.org/~dreyer/tor/papers/reynolds.pdf">Types, Abstraction and Parametric Polymorphism</a>. 
-            </p>
-            <p>
-              I believe fascating dicoveries dawn in the intersection of beautiful theories and practical insights.
-              My current reserach interest lies on formal verification of operating system.
-            </p>
-            <p>
-              In my spare time, I play tennis and Dota2.
-            </p>  
-            <p>
-              Welcome to get in touch with me anytime!!!
-            </p>
-            <h2>News</h2>
-            <p>
-              12/20: Got "Honorable Mention" in <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">2024 CRA Outstanding Undergrad Researcher Award</a>!
-            </p>
-            <p>
-              12/7: Paper ‘Efficient Exposure of Partial Failure Bugs in Distributed Systems with Inferred Abstract States’ is accepted at <a href="https://www.usenix.org/conference/nsdi24">NSDI'24</a> and I will be the presenter!
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              jpan26@jh.edu
-            </p>
-          </div>
-          
-        </div>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name – Academic Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Basic styling */
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+    header, nav, main, footer { padding: 1rem 2rem; }
+    header { background: #004080; color: #fff; }
+    nav ul { list-style: none; display: flex; gap: 1rem; padding: 0; margin: 0; }
+    nav a { color: #004080; text-decoration: none; font-weight: bold; }
+    section { margin: 2rem 0; }
+    .container { max-width: 960px; margin: auto; }
+    .pub-list { list-style: none; padding: 0; }
+    .pub-list li { margin-bottom: 1rem; }
+    footer { background: #f4f4f4; text-align: center; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p>Position • Department, University</p>
     </div>
+  </header>
 
-    <footer>  
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>Brief biography or research interests. Describe your background, current projects, and long-term goals.</p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>Overview of research areas, key projects, and collaborations.</p>
+      <ul>
+        <li><strong>Project A:</strong> Short description.</li>
+        <li><strong>Project B:</strong> Short description.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul class="pub-list">
+        <li><em>Paper Title</em>, <strong>Author1, Author2</strong>, <em>Conference/Journal</em>, Year.</li>
+        <li><em>Paper Title</em>, <strong>Author1, Author2</strong>, <em>Conference/Journal</em>, Year.</li>
+      </ul>
+      <p><a href="#">Full publication list (PDF)</a></p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li><strong>Course Name (Semester Year)</strong>: Brief description.</li>
+      </ul>
+      <p><a href="#">Download syllabus (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
+      <p>Office: Building Name, Room Number</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
 </html>
