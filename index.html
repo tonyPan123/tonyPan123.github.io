@@ -17,12 +17,6 @@
     .pub-list { list-style: none; padding: 0; }
     .pub-list li { margin-bottom: 1rem; }
     footer { background: #f4f4f4; text-align: center; font-size: 0.9rem; }
-    
-    /* Profile photo styling */
-    .about-content { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
-    .profile-photo { flex-shrink: 0; }
-    .profile-photo img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 4px solid #004080; }
-    .about-text { flex: 1; min-width: 300px; }
   </style>
 </head>
 <body>
@@ -46,22 +40,18 @@
   <main class="container">
     <section id="about">
       <h2>About</h2>
-      <div class="about-content">
-        <div class="profile-photo">
-          <img src="photo.png" alt="Jia (Tony) Pan" />
-        </div>
-        <div class="about-text">
-          <p>I am second-year Ph.D. student at The University of Texas at Austin. I am co-advised by I&#351;&#305;l Dillig and Venkat Arun. My current interest lies on 
-          formal verification and automated synthesis of networked systems.</p>
-          <p>Previously, I graduated with major of Computer Science, Electrical Engineering, and Mathematics at Johns Hopkins University. 
-          I am fortunate to work with Ryan Huang at The University of Michigan - Ann Arbor on improving the reliability of large-scale distributed system.</p>
-        </div>
-      </div>
+      <p>I am second-year Ph.D. student at The University of Texas at Austin. I am co-advised by I&#351;&#305;l Dillig and Venkat Arun. My current interest lies on 
+      formal verification and automated synthesis of networked systems.</p>
+      <p>Previously, I graduated with major of Computer Science, Electrical Engineering, and Mathematics at Johns Hopkins University. 
+      I am fortunate to work with Ryan Huang at The University of Michigan - Ann Arbor on improving the reliability of large-scale distributed system.</p>
     </section>
     <section id="publications">
       <h2>Publications</h2>
       <ul class="pub-list">
-        <li><em>Synthesizing a Provably Performant Joint Controller for Low-Latency Video Streaming</em>, <strong>Jia Pan, Anup Agarwal, I&#351;&#305;l Dillig, Venkat Arun</strong>, <em>NSDI</em>, 202[...]<li><em><a href="https://web.eecs.umich.edu/~ryanph/paper/anduril-sosp24-preprint.pdf">Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Inject[...]<li><em><a href="https://web.eecs.umich.edu/~ryanph/paper/legolas-nsdi24-preprint.pdf">Efficient Exposure of Partial Failure Bugs in Distributed Systems with Inferred Abstract States</a></em>,[...]      </ul>
+        <li><em>Synthesizing a Provably Performant Joint Controller for Low-Latency Video Streaming</em>, <strong>Jia Pan, Anup Agarwal, I&#351;&#305;l Dillig, Venkat Arun</strong>, <em>NSDI</em>, 2026.</li>
+        <li><em><a href="https://web.eecs.umich.edu/~ryanph/paper/anduril-sosp24-preprint.pdf">Efficient Reproduction of Fault-Induced Failures in Distributed Systems with Feedback-Driven Fault Injection</a></em>, <strong>Jia Pan, Haoze Wu, Tanakorn Leesatapornwongsa, Suman Nath, Peng Huang</strong>, <em>SOSP</em>, 2024.</li>
+        <li><em><a href="https://web.eecs.umich.edu/~ryanph/paper/legolas-nsdi24-preprint.pdf">Efficient Exposure of Partial Failure Bugs in Distributed Systems with Inferred Abstract States</a></em>, <strong>Haoze Wu, Jia Pan, Peng Huang</strong>, <em>NSDI</em>, 2024.</li>
+      </ul>
     </section>
 
     <section id="contact">
